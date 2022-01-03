@@ -11,6 +11,7 @@ Texture features: The image surface texture feature is almost independent of sha
 Similarly, the similarity between regions is measured by calculating the Manhattan distance between the histograms of two regions.
 Distance between regions: In order to ensure local consistency, the distance between the midpoints of the two regions is added as a factor for judging the similarity of the regions.
 The similarity between regions i and j is calculated as follows:
+
 D i,j = Dgradient i,j + Dtexture i,j + Ddistance i,j 
 
 ### Shadow detection
